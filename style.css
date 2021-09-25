@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+}
+header {
+    background-image: url("bgbobesponja.jpg");
+    padding: 70px;
+}
+body {
+    font-family: Montserrat;
+    background-color: rgb(253, 234, 99);
+}
+.button {
+    background-color: #0457a0;
+    border: 2px;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    
+  }
+  h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-variant: small-caps;
+      color: #ffffff;
+  }
+  h2 {
+      color:#26b9c8;
+  }
+  img {  
+    height: 10rem;
+    object-fit: contain;
+    margin: 10px;
+  }
+  .areaJogo {
+      display: flex;
+      align-items:center;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      margin-bottom: 100px;
+  }
+  .button:hover{
+    transform: scale(1.1);
+  }
+  footer {
+      display: flex;
+      align-items:flex-end;
+      justify-content: center;
+  }
+  main {
+      margin-top: 30px;
+  }
+  #humorBob {
+      margin-top: 50px;
+      margin-left: 50px;
+  }
+  head {
+      display: flex;
+  }
